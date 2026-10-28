@@ -1,0 +1,49 @@
+body {
+  background-color: #fff8e7;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  color: #b3001b;
+}
+h2 {
+  color: #8a5a00;
+}
+img {
+  border-radius: 12px;
+}
+a {
+  color: white;
+  background-color: red;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+}.film {
+  background-color: white;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 340px;
+}button {
+  background-color: darkred;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}input {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #999;
+}.thanhTren {
+  background-color: #b3001b;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px;
+  position: sticky;
+  top: 0;
+}
