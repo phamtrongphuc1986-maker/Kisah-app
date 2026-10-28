@@ -10,5 +10,7 @@
 <h1>Chào mừng đến với Kisah Masa Tua</h1>
 <p>Kênh phim drama cảm động — xem miễn phí, có phim mới mỗi tuần. <p><button onclick="batThongBao()">Nhận thông báo phim mới</button></p>
 <p id="thongbao"></p><h2>Phim nổi bật</h2><p><input id="oTim" type="text" placeholder="Tìm phim theo tên..." oninput="timPhim()"></p>
-<div id="danhSachPhim"></div><script src="./script.js"></script></script>
+<div id="danhSachPhim"></div><script src="./script.js"></script><script>
+if ("serviceWorker" in navigator) { navigator.serviceWorker.register("sw.js"); }
+</script>
 </body>
